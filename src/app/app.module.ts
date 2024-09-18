@@ -16,6 +16,7 @@ import { CalculatorComponent } from "./components/calculator/calculator.componen
 import { TextlengthComponent } from "./components/textlength/textlength.component";
 import { CurrencyconverterComponent } from "./components/currencyconverter/currencyconverter.component";
 import { EvenoddcheckerComponent } from "./components/evenoddchecker/evenoddchecker.component";
+import { WordreverserComponent } from "./components/wordreverser/wordreverser.component";
 
 
 const routes: Routes = [
@@ -30,6 +31,7 @@ const routes: Routes = [
     {path: 'textlength', component: TextlengthComponent},
     {path: 'currencyconverter', component: CurrencyconverterComponent},
     {path: 'evenoddchecker', component: EvenoddcheckerComponent},
+    {path: 'wordreverser', component: WordreverserComponent},
 ]
 
 @NgModule ({
@@ -54,6 +56,7 @@ const routes: Routes = [
         TextlengthComponent,
         CurrencyconverterComponent,
         EvenoddcheckerComponent,
+        WordreverserComponent,
     ],
 
     providers: [
