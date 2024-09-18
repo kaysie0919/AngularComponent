@@ -1,7 +1,7 @@
 import { RouterModule, Routes } from "@angular/router";
 import { AppComponent } from "./app.component";
 import { NgModule } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import { CommonModule, CurrencyPipe } from "@angular/common";
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { DisplayHelloWorldComponent } from "./components/display-hello-world/display-hello-world.component";
@@ -14,6 +14,7 @@ import { UserageComponent } from "./components/userage/userage.component";
 import { UsergreetingComponent } from "./components/usergreeting/usergreeting.component";
 import { CalculatorComponent } from "./components/calculator/calculator.component";
 import { TextlengthComponent } from "./components/textlength/textlength.component";
+import { CurrencyconverterComponent } from "./components/currencyconverter/currencyconverter.component";
 
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
     {path: 'usergreeting', component: UsergreetingComponent},
     {path: 'calculator', component: CalculatorComponent},
     {path: 'textlength', component: TextlengthComponent},
+    {path: 'currencyconverter', component: CurrencyconverterComponent},
 ]
 
 @NgModule ({
@@ -48,6 +50,7 @@ const routes: Routes = [
         UsergreetingComponent,
         CalculatorComponent,
         TextlengthComponent,
+        CurrencyconverterComponent,
     ],
 
     providers: [
