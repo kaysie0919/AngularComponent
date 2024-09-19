@@ -21,6 +21,7 @@ import { ShowdateComponent } from "./components/showdate/showdate.component";
 import { ShowusernameComponent } from "./components/showusername/showusername.component";
 import { MultiplicationtableComponent } from "./components/multiplicationtable/multiplicationtable.component";
 import { SimpleloginComponent } from "./components/simplelogin/simplelogin.component";
+import { FahrenheittocelsiusComponent } from "./components/fahrenheittocelsius/fahrenheittocelsius.component";
 
 
 const routes: Routes = [
@@ -40,6 +41,7 @@ const routes: Routes = [
     {path: 'showusername', component: ShowusernameComponent},
     {path: 'multiplicationtable', component: MultiplicationtableComponent},
     {path: 'simplelogin', component: SimpleloginComponent},
+    {path: 'fahrenheittocelsius', component: FahrenheittocelsiusComponent},
 ]
 
 @NgModule ({
@@ -69,6 +71,7 @@ const routes: Routes = [
         ShowusernameComponent,
         MultiplicationtableComponent,
         SimpleloginComponent,
+        FahrenheittocelsiusComponent,
     ],
 
     providers: [
