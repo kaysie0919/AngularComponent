@@ -1,7 +1,7 @@
 import { RouterModule, Routes } from "@angular/router";
 import { AppComponent } from "./app.component";
 import { NgModule } from "@angular/core";
-import { CommonModule, CurrencyPipe } from "@angular/common";
+import { CommonModule, CurrencyPipe, UpperCasePipe } from "@angular/common";
 import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { DisplayHelloWorldComponent } from "./components/display-hello-world/display-hello-world.component";
@@ -33,6 +33,7 @@ import { GuessnumbergameComponent } from "./components/guessnumbergame/guessnumb
 import { WordcounterComponent } from "./components/wordcounter/wordcounter.component";
 import { RandomnumbergeneratorComponent } from "./components/randomnumbergenerator/randomnumbergenerator.component";
 import { MultiplicationcheckerComponent } from "./components/multiplicationchecker/multiplicationchecker.component";
+import { UppercaseconverterComponent } from "./components/uppercaseconverter/uppercaseconverter.component";
 
 
 const routes: Routes = [
@@ -64,6 +65,7 @@ const routes: Routes = [
     {path: 'wordcounter', component: WordcounterComponent},
     {path: 'randomnumbergenerator', component: RandomnumbergeneratorComponent},
     {path: 'multiplicationchecker', component: MultiplicationcheckerComponent},
+    {path: 'uppercaseconverter', component: UppercaseconverterComponent},
 ]
 
 @NgModule ({
@@ -105,6 +107,7 @@ const routes: Routes = [
         WordcounterComponent,
         RandomnumbergeneratorComponent,
         MultiplicationcheckerComponent,
+        UppercaseconverterComponent,
     ],
 
     providers: [
