@@ -47,6 +47,7 @@ import { UppercasegreetingComponent } from "./components/uppercasegreeting/upper
 import { DivisiblecheckerComponent } from "./components/divisiblechecker/divisiblechecker.component";
 import { StopwatchComponent } from "./components/stopwatch/stopwatch.component";
 import { CountdowntimerComponent } from "./components/countdowntimer/countdowntimer.component";
+import { PasswordstrengthcheckerComponent } from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 
 
 const routes: Routes = [
@@ -92,6 +93,7 @@ const routes: Routes = [
     {path: 'divisiblechecker', component: DivisiblecheckerComponent},
     {path: 'stopwatch', component: StopwatchComponent},
     {path: 'countdowntimer', component: CountdowntimerComponent},
+    {path: 'passwordstrengthchecker', component: PasswordstrengthcheckerComponent},
 ]
 
 @NgModule ({
@@ -147,6 +149,7 @@ const routes: Routes = [
         DivisiblecheckerComponent,
         StopwatchComponent,
         CountdowntimerComponent,
+        PasswordstrengthcheckerComponent,
     ],
 
     providers: [
