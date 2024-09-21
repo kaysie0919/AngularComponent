@@ -49,6 +49,7 @@ import { StopwatchComponent } from "./components/stopwatch/stopwatch.component";
 import { CountdowntimerComponent } from "./components/countdowntimer/countdowntimer.component";
 import { PasswordstrengthcheckerComponent } from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 import { UnitconverterComponent } from "./components/unitconverter/unitconverter.component";
+import { SimplevotingComponent } from "./components/simplevoting/simplevoting.component";
 
 
 const routes: Routes = [
@@ -96,6 +97,7 @@ const routes: Routes = [
     {path: 'countdowntimer', component: CountdowntimerComponent},
     {path: 'passwordstrengthchecker', component: PasswordstrengthcheckerComponent},
     {path: 'unitconverter', component: UnitconverterComponent},
+    {path: 'simplevoting', component: SimplevotingComponent},
 ]
 
 @NgModule ({
@@ -153,6 +155,7 @@ const routes: Routes = [
         CountdowntimerComponent,
         PasswordstrengthcheckerComponent,
         UnitconverterComponent,
+        SimplevotingComponent,
     ],
 
     providers: [
