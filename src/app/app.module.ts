@@ -53,6 +53,8 @@ import { SimplevotingComponent } from "./components/simplevoting/simplevoting.co
 import { DicerollerComponent } from "./components/diceroller/diceroller.component";
 import { RandomcolorComponent } from "./components/randomcolor/randomcolor.component";
 import { LettercomparisonComponent } from "./components/lettercomparison/lettercomparison.component";
+import { PalindromenumberComponent } from "./componetns/palindromenumber/palindromenumber.component";
+import { DaysuntilbirthdayComponent } from "./components/daysuntilbirthday/daysuntilbirthday.component";
 
 
 const routes: Routes = [
@@ -104,6 +106,8 @@ const routes: Routes = [
     {path: 'diceroller', component: DicerollerComponent},
     {path: 'randomcolor', component: RandomcolorComponent},
     {path: 'lettercomparison', component: LettercomparisonComponent},
+    {path: 'palindromenumber', component: PalindromenumberComponent},
+    {path: 'daysuntilbirthday', component: DaysuntilbirthdayComponent},
 ]
 
 @NgModule ({
@@ -165,6 +169,8 @@ const routes: Routes = [
         DicerollerComponent,
         RandomcolorComponent,
         LettercomparisonComponent,
+        PalindromenumberComponent,
+        DaysuntilbirthdayComponent,
     ],
 
     providers: [
