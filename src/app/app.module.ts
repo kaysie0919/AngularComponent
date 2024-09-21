@@ -51,6 +51,7 @@ import { PasswordstrengthcheckerComponent } from "./components/passwordstrengthc
 import { UnitconverterComponent } from "./components/unitconverter/unitconverter.component";
 import { SimplevotingComponent } from "./components/simplevoting/simplevoting.component";
 import { DicerollerComponent } from "./components/diceroller/diceroller.component";
+import { RandomcolorComponent } from "./components/randomcolor/randomcolor.component";
 
 
 const routes: Routes = [
@@ -100,6 +101,7 @@ const routes: Routes = [
     {path: 'unitconverter', component: UnitconverterComponent},
     {path: 'simplevoting', component: SimplevotingComponent},
     {path: 'diceroller', component: DicerollerComponent},
+    {path: 'randomcolor', component: RandomcolorComponent},
 ]
 
 @NgModule ({
@@ -159,6 +161,7 @@ const routes: Routes = [
         UnitconverterComponent,
         SimplevotingComponent,
         DicerollerComponent,
+        RandomcolorComponent,
     ],
 
     providers: [
