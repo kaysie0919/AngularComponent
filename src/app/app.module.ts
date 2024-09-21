@@ -48,6 +48,7 @@ import { DivisiblecheckerComponent } from "./components/divisiblechecker/divisib
 import { StopwatchComponent } from "./components/stopwatch/stopwatch.component";
 import { CountdowntimerComponent } from "./components/countdowntimer/countdowntimer.component";
 import { PasswordstrengthcheckerComponent } from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
+import { UnitconverterComponent } from "./components/unitconverter/unitconverter.component";
 
 
 const routes: Routes = [
@@ -94,6 +95,7 @@ const routes: Routes = [
     {path: 'stopwatch', component: StopwatchComponent},
     {path: 'countdowntimer', component: CountdowntimerComponent},
     {path: 'passwordstrengthchecker', component: PasswordstrengthcheckerComponent},
+    {path: 'unitconverter', component: UnitconverterComponent},
 ]
 
 @NgModule ({
@@ -150,6 +152,7 @@ const routes: Routes = [
         StopwatchComponent,
         CountdowntimerComponent,
         PasswordstrengthcheckerComponent,
+        UnitconverterComponent,
     ],
 
     providers: [
